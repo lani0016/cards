@@ -1,70 +1,74 @@
-html{
+html {
   box-sizing: border-box;
   background-color: #f2f2f2;
-  font-family:Gorgeia,serif;
-  line-height: 1.5rem
+  font-family: Georgia, serif;
+  line-height: 1.5;
 }
-.cards{
+
+.cards {
   margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.cards li{
-  display: inline-block;
-  margin: 0.5em 1em;
-  max-width:20em;
-  padding:1em;
-  background-color: #fff;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-.cards{
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
-.cards li{
+
+.cards li {
+  display: inline-block;
+  margin: .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #fff;
   border: 3px solid #e2e2e2;
   border-radius: 10px;
   text-align: left;
 }
-.cards img{
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.cards img {
   display: block;
   margin: 0 auto 1rem;
 }
-.cards strong{
+
+.cards strong {
   display: block;
   margin-bottom: 1rem;
   font-size: 1.125rem;
 }
-.cards dl  {
+
+.cards dl {
   margin-bottom: 1rem;
 }
-.cards dt{
+
+.cards dt {
   display: inline-block;
   width: 6em;
   font-style: italic;
 }
-.cards dd{
+
+.cards dd {
   display: inline-block;
   margin: 0;
+
   min-width: 9em;
 }
-.cards div{
+
+.cards div {
   text-align: center;
 }
-.cards a{
+
+.cards a {
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   background-color: #ccc;
   border-radius: 4px;
   color: #000;
   text-decoration: none;
 }
-.cards a:hover{
+
+.cards a:hover {
   background-color: #333;
-  color:#fff;
+  color: #fff;
 }
