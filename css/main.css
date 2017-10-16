@@ -43,13 +43,13 @@ html {
 }
 
 .cards dt {
-  display: inline-block;
+  display: inline;
   width: 6em;
   font-style: italic;
 }
 
 .cards dd {
-  display: inline-block;
+  display: inline;
   margin: 0;
 
   min-width: 9em;
