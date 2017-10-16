@@ -1,4 +1,4 @@
-html{html {
+html{
   box-sizing: border-box;
   background-color: #f2f2f2;
   font-family:Gorgeia,serif;
@@ -20,4 +20,14 @@ html{html {
 }
 *, *::before, *::after {
   box-sizing: inherit;
-}}
+}
+.cards{
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.cards li{
+  border: 3px solid #f2f2f2;
+  border-radius: 10px;
+  text-align: left;
+}
